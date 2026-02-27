@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jodi | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav>
+  <a href="#home" class="nav-brand">MyPortfolio</a>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<main>
+  <div class="bento">
+
+    <!-- PROFILE -->
+    <div class="card card-profile" id="home">
+      <div><img src="img/Profile Photo 1.jpg" alt="Jodi" class="profile-avatar"></div>
+      <div class="profile-info">
+        <h1>Hello, I'm Jodi</h1>
+        <div class="role">Web Developer &nbsp;·&nbsp; CS Student</div>
+        <div class="profile-contact">
+          <a href="mailto:jodiangelocastil@email.com" class="contact-chip">
+            <svg width="12" height="12" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <rect x="2" y="4" width="20" height="16" rx="2"/>
+              <path d="m2 7 10 7 10-7"/>
+            </svg>
+            jodiangelocastil@email.com
+          </a>
+          <a href="tel:+639451374728" class="contact-chip">
+            <svg width="12" height="12" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2A19.79 19.79 0 0 1 11.61 19a19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.94-8.2A2 2 0 0 1 3.59 2H6.6a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L7.91 9.91a16 16 0 0 0 6 6l.96-.96a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 17z"/>
+            </svg>
+            +63 945 137 4728
+          </a>
+        </div>
+      </div>
+      <div class="profile-cta">
+        <a href="#projects" class="btn-primary-custom">View My Work</a>
+      </div>
+    </div>
+
+    <!-- ABOUT -->
+    <div class="card card-about" id="about">
+      <div class="card-label">
+        <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <circle cx="12" cy="8" r="4"/>
+          <path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"/>
+        </svg>
+        About Me
+      </div>
+      <p>
+        I'm a passionate web developer with a background in computer science. I enjoy creating beautiful
+        and functional websites that provide great user experiences. With experience in HTML, CSS,
+        JavaScript, and Bootstrap, I am always eager to learn new technologies and take on exciting projects.
+      </p>
+    </div>
+
+    <!-- SKILLS -->
+    <div class="card card-skills" id="skills">
+      <div class="card-label">
+        <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+          <path d="m2 17 10 5 10-5"/>
+          <path d="m2 12 10 5 10-5"/>
+        </svg>
+        My Skills
+      </div>
+
+      <div class="skill-group">
+        <div class="skill-group-label">Frontend</div>
+        <div class="skill-tags">
+          <span class="tag">HTML</span>
+          <span class="tag">CSS</span>
+          <span class="tag">JavaScript</span>
+          <span class="tag">Bootstrap</span>
+          <span class="tag">React</span>
+        </div>
+      </div>
+
+      <div class="skill-group">
+        <div class="skill-group-label">Backend</div>
+        <div class="skill-tags">
+          <span class="tag">PHP</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- PROJECTS -->
+    <div class="card card-projects" id="projects">
+      <div class="card-label">
+        <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <rect x="3" y="3" width="7" height="7" rx="1"/>
+          <rect x="14" y="3" width="7" height="7" rx="1"/>
+          <rect x="3" y="14" width="7" height="7" rx="1"/>
+          <rect x="14" y="14" width="7" height="7" rx="1"/>
+        </svg>
+        My Projects
+      </div>
+      <div class="projects-grid">
+
+        <div class="project-item">
+          <img src="img/Simple Website SS.png" alt="Project 1" class="project-img">
+          <div class="project-body">
+            <h5>Project 1</h5>
+            <p>Simple website design.</p>
+          </div>
+        </div>
+
+        <div class="project-item">
+          <img src="img/BS Landing Page SS.webp" alt="Project 2" class="project-img">
+          <div class="project-body">
+            <h5>Project 2</h5>
+            <p>Bootstrap landing page.</p>
+          </div>
+        </div>
+
+        <div class="project-item">
+          <img src="img/Portfolio website SS.png" alt="Project 3" class="project-img">
+          <div class="project-body">
+            <h5>Project 3</h5>
+            <p>Portfolio website.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- CONTACT -->
+    <div class="card card-contact" id="contact">
+      <div>
+        <div class="card-label">
+          <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+          </svg>
+          Contact Me
+        </div>
+        <h3>Let's work<br>together.</h3>
+        <p>Have a project in mind? I'd love to hear from you.</p>
+      </div>
+
+      <div class="contact-details">
+        <div class="contact-row">
+          <div class="contact-icon">✉️</div>
+          <span>jodiangelocastil@email.com</span>
+        </div>
+        <div class="contact-row">
+          <div class="contact-icon">📱</div>
+          <span>+63 945 137 4728</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</main>
+
+<!-- FOOTER -->
+<footer>
+  <p>© 2026 My Portfolio · Made with Speed</p>
+</footer>
+
+</body>
+</html>
